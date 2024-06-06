@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "license": "MIT",
   "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "@jest/types": "29.6.3",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
   "workspaces": [
     "apps/*",
     "libs/*"
